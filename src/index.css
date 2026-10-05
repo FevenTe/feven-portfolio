@@ -160,7 +160,12 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0; }
 .skill-row h3 { font-size: 0.95rem; color: var(--muted); font-weight: 600; padding-top: 0.2rem; }
 
 /* Projects */
-.projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 1.5rem; }
+.projects { 
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1.25rem; 
+  margin-top: 1.5rem; 
+}
 @media (max-width: 1000px) {
   .projects { grid-template-columns: repeat(2, 1fr); }
 }
