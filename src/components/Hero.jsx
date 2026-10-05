@@ -16,7 +16,7 @@ export default function Hero() {
         </p>
         <div className="actions">
           <a className="btn btn-primary" href="#projects">View projects</a>
-          <a className="btn" href={cvUrl} download>Download CV</a>
+          <a className="btn" href="/Feven_Temesgen_CV.pdf"download>Download CV</a>
         </div>
         <ul className="social">
           <li><a href={profile.github} target="_blank" rel="noreferrer">GitHub ↗</a></li>

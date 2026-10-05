@@ -112,6 +112,6 @@ export const profile = {
         'Tasks saved in the browser with local storage',
       ],
       github: 'https://github.com/FevenTe/daily-planner.git',
-      demo: '',
+      demo: 'https://daily-planner-silk.vercel.app/',
     }
   ]
