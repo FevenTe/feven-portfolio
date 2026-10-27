@@ -92,7 +92,6 @@ export const profile = {
           'Dark and light mode',
           'Project showcase',
           'Downloadable CV',
-          'GitHub and LinkedIn links',
         ],
         github: 'https://github.com/FevenTe/feven-portfolio.git'
       },
