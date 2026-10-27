@@ -16,11 +16,11 @@ export default function Hero() {
         </p>
         <div className="actions">
           <a className="btn btn-primary" href="#projects">View projects</a>
-          <a className="btn" href="/Feven_Temesgen_CV.pdf"download>Download CV</a>
+          <a className="btn" href={cvUrl} download>Download CV</a>
         </div>
         <ul className="social">
           <li><a href={profile.github} target="_blank" rel="noreferrer">GitHub ↗</a></li>
-          <li><a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a></li>
+          {profile.linkedin && <li><a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a></li>}
           <li><a href={`mailto:${profile.email}`}>Email ↗</a></li>
         </ul>
       </div>

@@ -15,7 +15,7 @@ export const profile = {
     location: 'Addis Abeba, Ethiopia',
     email: 'feventemesgen91@gmail.com',
     github: 'https://github.com/FevenTe',
-    linkedin: 'https://www.linkedin.com/in/feven-temesgen91',
+    linkedin: '',
     cv: 'Feven_Temesgen_CV.pdf',
   }
   
